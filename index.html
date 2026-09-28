@@ -4,334 +4,259 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#08080b">
-<title>IG BOOST — Instagram Growth</title>
+<title>IG BOOST</title>
 <style>
-:root{--bg:#08080b;--panel:rgba(18,18,23,.75);--line:rgba(255,255,255,.09);--text:#f7f7fb;--muted:#9697a3;--pink:#ff2d82;--violet:#7948ff;--green:#4be39d}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;min-height:100vh;color:var(--text);background:radial-gradient(650px 360px at 5% 0%,rgba(255,45,130,.15),transparent 60%),radial-gradient(650px 430px at 95% 18%,rgba(121,72,255,.15),transparent 58%),var(--bg);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+:root{--bg:#08080b;--panel:rgba(18,18,23,.76);--line:rgba(255,255,255,.09);--text:#f7f7fb;--muted:#9798a4;--pink:#ff2d82;--violet:#7948ff;--green:#4be39d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;color:var(--text);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(650px 380px at 4% 0%,rgba(255,45,130,.15),transparent 61%),radial-gradient(650px 440px at 96% 18%,rgba(121,72,255,.15),transparent 60%),var(--bg)}
 a{text-decoration:none;color:inherit}
 .container{width:min(1140px,calc(100% - 36px));margin:auto}
-nav{height:80px;display:flex;align-items:center;justify-content:space-between}
+nav{height:80px;display:flex;justify-content:space-between;align-items:center}
 .brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:18px;letter-spacing:-.5px}
-.brandmark{width:37px;height:37px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--pink),var(--violet));font-size:11px;font-weight:950}
-.navlinks{display:flex;gap:25px;color:#9b9ca7;font-size:13px}
-.navlinks a:hover{color:white}
+.brandmark{width:37px;height:37px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--pink),var(--violet));font-size:11px}
+.navlinks{display:flex;gap:24px;color:#9b9ca7;font-size:13px}.navlinks a:hover{color:#fff}
 .hero{text-align:center;padding:88px 0 78px}
-.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid var(--line);background:rgba(255,255,255,.03);border-radius:999px;color:#c9c9d1;font-size:12px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid var(--line);background:rgba(255,255,255,.03);border-radius:999px;color:#c8c9d1;font-size:12px}
 .dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 14px var(--green)}
-h1{max-width:920px;margin:23px auto 18px;font-size:clamp(48px,7vw,84px);line-height:.96;letter-spacing:-5px}
-.grad{background:linear-gradient(105deg,#fff 5%,#ff63a4 45%,#9b82ff 90%);-webkit-background-clip:text;background-clip:text;color:transparent}
+h1{max-width:930px;margin:22px auto 17px;font-size:clamp(48px,7vw,83px);line-height:.96;letter-spacing:-5px}
+.grad{background:linear-gradient(105deg,#fff 5%,#ff63a4 47%,#9c82ff 91%);-webkit-background-clip:text;background-clip:text;color:transparent}
 .lead{width:min(720px,100%);margin:auto;color:#9b9ca6;font-size:16px;line-height:1.7}
-.cta{display:inline-flex;align-items:center;justify-content:center;margin-top:33px;padding:15px 22px;border-radius:15px;background:linear-gradient(135deg,var(--pink),var(--violet));font-weight:850;box-shadow:0 17px 48px rgba(115,59,191,.28);transition:transform .17s}
+.cta{display:inline-flex;align-items:center;justify-content:center;gap:9px;margin-top:33px;padding:15px 22px;border-radius:15px;background:linear-gradient(135deg,var(--pink),var(--violet));font-weight:850;box-shadow:0 17px 48px rgba(113,59,191,.28);transition:.17s}
 .cta:hover{transform:translateY(-2px)}
 .stats,.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.stats{margin-top:55px}
-.stat,.card,.checkpanel{border:1px solid var(--line);background:var(--panel);backdrop-filter:blur(18px);border-radius:21px}
-.stat{padding:23px;text-align:left}
-.stat strong{font-size:28px;letter-spacing:-1px}.stat span{display:block;color:#878894;font-size:12px;margin-top:6px}
-.section{padding:72px 0}
-.section h2{margin:0 0 9px;font-size:34px;letter-spacing:-1.7px}.sectionlead{margin:0 0 26px;color:#898a95;font-size:13px}
-.card{padding:25px}.num{font-size:11px;letter-spacing:1px;font-weight:900;color:#ff62a4;margin-bottom:18px}.card h3{margin:0 0 8px;font-size:16px}.card p{margin:0;color:#90919c;font-size:13px;line-height:1.62}
+.stats{margin-top:55px}.stat,.card,.checkpanel{border:1px solid var(--line);background:var(--panel);border-radius:21px;backdrop-filter:blur(18px)}
+.stat{padding:23px;text-align:left}.stat strong{font-size:28px;letter-spacing:-1px}.stat span{display:block;color:#898a96;font-size:12px;margin-top:6px}
+.section{padding:72px 0}.section h2{margin:0 0 9px;font-size:34px;letter-spacing:-1.8px}.sectionlead{margin:0 0 26px;color:#898a95;font-size:13px}
+.card{padding:25px}.num{font-size:11px;font-weight:900;letter-spacing:1px;color:#ff62a4;margin-bottom:18px}.card h3{margin:0 0 8px;font-size:16px}.card p{margin:0;color:#90919c;font-size:13px;line-height:1.62}
 .bottom{display:flex;align-items:center;justify-content:space-between;gap:22px}.bottom h3{margin:0;font-size:26px;letter-spacing:-1px}.bottom p{margin:6px 0 0;color:#878894;font-size:12px}.bottom .cta{margin:0;white-space:nowrap}
 footer{margin-top:24px;padding:34px 0 44px;border-top:1px solid var(--line);text-align:center;color:#666773;font-size:11px}
 
-/* Checker page inside the same HTML file */
-.checkerPage{min-height:100vh}
+/* checker */
+#checkerView{display:none}
 .checkerWrap{width:min(760px,calc(100% - 36px));margin:auto}
-.checkerHeader{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:28px 0}
-.back{color:#a2a3ae;font-size:13px}.back:hover{color:#fff}
-.checkTitle{padding:54px 0 30px}.checkTitle h1{font-size:clamp(40px,6vw,63px);letter-spacing:-3.8px;margin:0 0 13px;text-align:left}.checkTitle p{margin:0;color:#93949f;line-height:1.65;font-size:14px;max-width:650px}
-.checkpanel{padding:20px;box-shadow:0 25px 90px rgba(0,0,0,.4)}
-label{display:block;margin:3px 0 8px;color:#9697a2;font-size:11px}
-input,select{width:100%;padding:15px;border-radius:13px;outline:0;border:1px solid var(--line);background:rgba(255,255,255,.045);color:white;font-size:14px}
+.checkHeader{height:80px;display:flex;align-items:center;justify-content:space-between}
+.back{color:#9a9ba7;font-size:13px}.back:hover{color:#fff}
+.checkHero{padding:58px 0 28px}.checkHero h1{font-size:clamp(42px,6vw,64px);text-align:left;letter-spacing:-4px;margin:0 0 13px}.checkHero p{max-width:680px;color:#93949f;line-height:1.68;font-size:14px;margin:0}
+.checkpanel{padding:20px;box-shadow:0 25px 90px rgba(0,0,0,.38)}
+.formrow{display:grid;grid-template-columns:1fr 190px;gap:11px}
+label{display:block;margin:3px 0 7px;color:#9697a2;font-size:11px}
+input,select{width:100%;padding:15px;border:1px solid var(--line);border-radius:13px;outline:0;background:rgba(255,255,255,.045);color:#fff;font-size:14px}
 select option{background:#17171d}
-.formrow{display:grid;grid-template-columns:1fr 180px;gap:11px}
 .checkbtn{width:100%;margin-top:12px;padding:15px;border:0;border-radius:13px;background:linear-gradient(135deg,var(--pink),var(--violet));color:white;font-weight:850;cursor:pointer}
 .checkbtn:disabled{opacity:.58;cursor:wait}
-.account{display:none;margin-top:14px;padding:18px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.025)}
-.account.show{display:block}
-.accountTop{display:flex;align-items:center;gap:15px}
-.avatar{width:70px;height:70px;border-radius:50%;object-fit:cover;background:linear-gradient(135deg,#202029,#111116);border:1px solid rgba(255,255,255,.1);display:grid;place-items:center;overflow:hidden;flex:0 0 70px}
-.avatar img{width:100%;height:100%;object-fit:cover;display:none}
-.avatarInitial{font-size:22px;font-weight:900;color:#cfd0d8}
-.accountName{font-size:19px;font-weight:900}.accountMeta{margin-top:5px;color:#8d8e99;font-size:12px}
-.state{margin-left:auto;align-self:flex-start;font-size:10px;padding:6px 9px;border-radius:999px;border:1px solid var(--line);color:#b8b9c2}
-.state.ok{color:#58e5a4;border-color:rgba(88,229,164,.2);background:rgba(88,229,164,.05)}
-.state.bad{color:#ff799d;border-color:rgba(255,121,157,.2);background:rgba(255,121,157,.05)}
+.result{display:none;margin-top:14px;padding:18px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.025)}
+.result.show{display:block}
+.accounttop{display:flex;align-items:flex-start;gap:15px}
+.avatar{width:72px;height:72px;flex:0 0 72px;border-radius:50%;overflow:hidden;border:1px solid rgba(255,255,255,.1);background:linear-gradient(135deg,#22222c,#101015);display:grid;place-items:center}
+.avatar img{width:100%;height:100%;object-fit:cover;display:none}.initial{font-size:22px;font-weight:900;color:#d2d3da}
+.accountinfo{min-width:0}.username{font-size:19px;font-weight:900;word-break:break-word}.fullname{margin-top:4px;color:#9b9ca6;font-size:12px;word-break:break-word}
+.state{margin-left:auto;padding:6px 9px;border:1px solid var(--line);border-radius:999px;font-size:10px;color:#aeb0ba;white-space:nowrap}
+.state.ok{color:#58e5a4;border-color:rgba(88,229,164,.22);background:rgba(88,229,164,.05)}
+.state.bad{color:#ff7c9e;border-color:rgba(255,124,158,.2);background:rgba(255,124,158,.05)}
 .state.wait{color:#ffd166}
-.stats2{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:15px}
-.stat2{padding:13px;border:1px solid rgba(255,255,255,.06);border-radius:13px;background:rgba(255,255,255,.025)}.stat2 b{font-size:16px}.stat2 span{display:block;color:#777884;font-size:10px;margin-top:4px}
-.message{margin-top:13px;color:#8c8d98;font-size:11px;line-height:1.55}
-@media(max-width:760px){
- .navlinks{display:none}.hero{padding-top:53px}h1{letter-spacing:-3px}.stats,.cards{grid-template-columns:1fr}
- .bottom{flex-direction:column;align-items:flex-start}.bottom .cta{width:100%}
- .formrow{grid-template-columns:1fr}.checkTitle h1{letter-spacing:-2.5px}
-}
+.stats2{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:16px}.s2{padding:13px;border:1px solid rgba(255,255,255,.06);background:rgba(255,255,255,.025);border-radius:13px}.s2 b{font-size:16px}.s2 span{display:block;color:#777884;font-size:10px;margin-top:4px}
+.bio{margin-top:13px;color:#8d8e99;font-size:11px;line-height:1.55;white-space:pre-wrap;word-break:break-word}
+.error{margin-top:12px;color:#8d8e99;font-size:11px;line-height:1.55}
+@media(max-width:760px){.navlinks{display:none}.hero{padding-top:53px}h1{letter-spacing:-3px}.stats,.cards{grid-template-columns:1fr}.bottom{flex-direction:column;align-items:flex-start}.bottom .cta{width:100%}.formrow{grid-template-columns:1fr}.checkHero h1{letter-spacing:-2.6px}}
 </style>
 </head>
 <body>
 
 <div id="landingView">
-  <div class="container">
-    <nav>
-      <div class="brand"><div class="brandmark">IG</div>IG BOOST</div>
-      <div class="navlinks">
-        <a href="#services">Xizmatlar</a>
-        <a href="#how">Qanday ishlaydi</a>
-        <a href="?page=checker">Account checker</a>
-      </div>
-    </nav>
+<div class="container">
+<nav>
+  <div class="brand"><div class="brandmark">IG</div>IG BOOST</div>
+  <div class="navlinks"><a href="#services">Xizmatlar</a><a href="#how">Qanday ishlaydi</a><a href="?page=checker">Account checker</a></div>
+</nav>
 
-    <section class="hero">
-      <div class="eyebrow"><span class="dot"></span> Instagram growth platform</div>
-      <h1>Profilingizni <span class="grad">tezroq o‘stiring.</span></h1>
-      <p class="lead">Followers, likes va views uchun qulay buyurtma interfeysi. Username orqali xizmatni tanlang va jarayonni kuzating.</p>
-      <a class="cta" href="?page=checker">Nakrutka urish →</a>
-
-      <div class="stats">
-        <div class="stat"><strong>24/7</strong><span>Avtomatik buyurtma oqimi</span></div>
-        <div class="stat"><strong>3+</strong><span>Asosiy xizmat turlari</span></div>
-        <div class="stat"><strong>Fast</strong><span>Oddiy va qulay interfeys</span></div>
-      </div>
-    </section>
-
-    <section class="section" id="services">
-      <h2>Xizmatlar</h2>
-      <p class="sectionlead">Kerakli xizmatni tanlang va buyurtmani boshlang.</p>
-      <div class="cards">
-        <div class="card"><div class="num">01 / FOLLOWERS</div><h3>Followers</h3><p>Profil auditoriyasini oshirishga mo‘ljallangan follower buyurtma oqimi.</p></div>
-        <div class="card"><div class="num">02 / LIKES</div><h3>Likes</h3><p>Post engagement ko‘rsatkichlari uchun like buyurtmasi.</p></div>
-        <div class="card"><div class="num">03 / VIEWS</div><h3>Views</h3><p>Reels va videolar uchun ko‘rishlar buyurtmasi.</p></div>
-      </div>
-    </section>
-
-    <section class="section" id="how">
-      <h2>Qanday ishlaydi?</h2>
-      <p class="sectionlead">Jarayon uchta oddiy qadamdan iborat.</p>
-      <div class="cards">
-        <div class="card"><div class="num">STEP 01</div><h3>Username kiriting</h3><p>Instagram username’ni kiriting. Login yoki parol kerak emas.</p></div>
-        <div class="card"><div class="num">STEP 02</div><h3>Hisobni tekshiring</h3><p>Account checker public Instagram profil sahifasini tekshiradi.</p></div>
-        <div class="card"><div class="num">STEP 03</div><h3>Buyurtmani boshlang</h3><p>Tekshiruvdan so‘ng xizmat va miqdorni tanlab jarayonni boshlang.</p></div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="card bottom">
-        <div><h3>Boost jarayonini boshlang</h3><p>Keyingi sahifada avval account’ni tekshirasiz.</p></div>
-        <a class="cta" href="?page=checker">Boshlash</a>
-      </div>
-    </section>
-
-    <footer>IG BOOST · Login va parol kiritish talab qilinmaydi.</footer>
+<section class="hero">
+  <div class="eyebrow"><span class="dot"></span> Instagram growth platform</div>
+  <h1>Profilingizni <span class="grad">tezroq o‘stiring.</span></h1>
+  <p class="lead">Followers, likes va views uchun qulay buyurtma interfeysi. Avval Instagram account’ni tekshiring.</p>
+  <a class="cta" href="?page=checker">Account checker →</a>
+  <div class="stats">
+    <div class="stat"><strong>24/7</strong><span>Qulay buyurtma oqimi</span></div>
+    <div class="stat"><strong>3+</strong><span>Asosiy xizmatlar</span></div>
+    <div class="stat"><strong>Fast</strong><span>Minimal interfeys</span></div>
   </div>
+</section>
+
+<section class="section" id="services">
+<h2>Xizmatlar</h2><p class="sectionlead">Instagram growth uchun asosiy xizmatlar.</p>
+<div class="cards">
+<div class="card"><div class="num">01 / FOLLOWERS</div><h3>Followers</h3><p>Profil auditoriyasini oshirishga mo‘ljallangan xizmat.</p></div>
+<div class="card"><div class="num">02 / LIKES</div><h3>Likes</h3><p>Post engagement uchun xizmat.</p></div>
+<div class="card"><div class="num">03 / VIEWS</div><h3>Views</h3><p>Reels va videolar uchun ko‘rishlar.</p></div>
+</div>
+</section>
+
+<section class="section" id="how">
+<h2>Qanday ishlaydi?</h2><p class="sectionlead">Avval account’ni tekshiring, keyin kerakli xizmatni tanlang.</p>
+<div class="cards">
+<div class="card"><div class="num">STEP 01</div><h3>Username kiriting</h3><p>Instagram username’ni kiriting.</p></div>
+<div class="card"><div class="num">STEP 02</div><h3>Account checker</h3><p>Server public Instagram profilini tekshiradi va mavjud ma’lumotlarni qaytaradi.</p></div>
+<div class="card"><div class="num">STEP 03</div><h3>Xizmatni boshlang</h3><p>Natijani ko‘rib, kerakli xizmat sahifasiga o‘ting.</p></div>
+</div>
+</section>
+
+<section class="section">
+<div class="card bottom">
+  <div><h3>Account’ni hozir tekshiring</h3><p>Yangi oyna emas — shu sayt ichida alohida page.</p></div>
+  <a class="cta" href="?page=checker">Tekshirish</a>
+</div>
+</section>
+<footer>IG BOOST · Login yoki Instagram paroli kiritilmaydi.</footer>
+</div>
 </div>
 
-<div id="checkerView" class="checkerPage" style="display:none">
-  <div class="checkerWrap">
-    <div class="checkerHeader">
-      <div class="brand"><div class="brandmark">IG</div>IG BOOST</div>
-      <a class="back" href="?">← Asosiy sahifa</a>
-    </div>
+<div id="checkerView">
+<div class="checkerWrap">
+<div class="checkHeader">
+  <div class="brand"><div class="brandmark">IG</div>IG BOOST</div>
+  <a href="?" class="back">← Asosiy sahifa</a>
+</div>
 
-    <section class="checkTitle">
-      <h1>Instagram account <span class="grad">checker.</span></h1>
-      <p>Username kiriting. Tekshiruvchi public Instagram profil sahifasini tahlil qiladi va mavjud profil uchun ochiq profil rasmini ko‘rsatishga urinadi.</p>
-    </section>
+<section class="checkHero">
+  <h1>Instagram account <span class="grad">checker.</span></h1>
+  <p>Username bo‘yicha public profilni server orqali tekshiradi. Profil topilsa, mavjud public avatar va ayrim public statistikalar chiqariladi.</p>
+</section>
 
-    <section class="checkpanel">
-      <form id="checkerForm">
-        <div class="formrow">
-          <div>
-            <label for="username">Instagram username</label>
-            <input id="username" autocomplete="off" maxlength="30" placeholder="@username">
-          </div>
-          <div>
-            <label for="service">Keyingi xizmat</label>
-            <select id="service">
-              <option>Followers</option>
-              <option>Likes</option>
-              <option>Views</option>
-            </select>
-          </div>
-        </div>
-        <button class="checkbtn" id="checkBtn" type="submit">Account’ni tekshirish</button>
-      </form>
-
-      <div class="account" id="account">
-        <div class="accountTop">
-          <div class="avatar">
-            <img id="avatarImg" alt="">
-            <div class="avatarInitial" id="avatarInitial">?</div>
-          </div>
-          <div>
-            <div class="accountName" id="accountName">@username</div>
-            <div class="accountMeta" id="accountMeta">Instagram profile</div>
-          </div>
-          <div class="state wait" id="state">CHECKING</div>
-        </div>
-
-        <div class="stats2">
-          <div class="stat2"><b id="followers">—</b><span>Followers</span></div>
-          <div class="stat2"><b id="following">—</b><span>Following</span></div>
-          <div class="stat2"><b id="posts">—</b><span>Posts</span></div>
-        </div>
-
-        <div class="message" id="message">Instagram sahifasi tekshirilmoqda...</div>
-      </div>
-    </section>
+<section class="checkpanel">
+<form id="checkForm">
+  <div class="formrow">
+    <div><label for="username">Instagram username</label><input id="username" maxlength="30" autocomplete="off" placeholder="@username"></div>
+    <div><label for="service">Keyingi xizmat</label><select id="service"><option>Followers</option><option>Likes</option><option>Views</option></select></div>
   </div>
+  <button class="checkbtn" id="checkBtn" type="submit">Account’ni tekshirish</button>
+</form>
+
+<div class="result" id="result">
+  <div class="accounttop">
+    <div class="avatar"><img id="avatar" alt=""><div id="initial" class="initial">?</div></div>
+    <div class="accountinfo">
+      <div class="username" id="showUsername">@username</div>
+      <div class="fullname" id="fullname">Instagram public profile</div>
+    </div>
+    <div class="state wait" id="state">CHECKING</div>
+  </div>
+
+  <div class="stats2">
+    <div class="s2"><b id="followers">—</b><span>Followers</span></div>
+    <div class="s2"><b id="following">—</b><span>Following</span></div>
+    <div class="s2"><b id="posts">—</b><span>Posts</span></div>
+  </div>
+  <div class="bio" id="bio"></div>
+  <div class="error" id="message">Instagram serveri bilan bog‘lanish kutilmoqda...</div>
+</div>
+</section>
+</div>
 </div>
 
 <script>
 (function(){
-  const landing = document.getElementById("landingView");
-  const checker = document.getElementById("checkerView");
-  const isChecker = new URLSearchParams(location.search).get("page") === "checker";
-
+  const landing=document.getElementById("landingView");
+  const checker=document.getElementById("checkerView");
+  const isChecker=new URLSearchParams(location.search).get("page")==="checker";
   if(isChecker){
-    landing.style.display = "none";
-    checker.style.display = "block";
-    document.title = "IG BOOST — Account Checker";
+    landing.style.display="none";
+    checker.style.display="block";
+    document.title="IG BOOST — Account Checker";
   }
 
-  const form = document.getElementById("checkerForm");
-  const input = document.getElementById("username");
-  const btn = document.getElementById("checkBtn");
-  const account = document.getElementById("account");
-  const avatarImg = document.getElementById("avatarImg");
-  const avatarInitial = document.getElementById("avatarInitial");
-  const accountName = document.getElementById("accountName");
-  const accountMeta = document.getElementById("accountMeta");
-  const state = document.getElementById("state");
-  const followers = document.getElementById("followers");
-  const following = document.getElementById("following");
-  const posts = document.getElementById("posts");
-  const message = document.getElementById("message");
+  const form=document.getElementById("checkForm");
+  if(!form)return;
 
-  function escapeRegExp(s){
-    return s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+  const input=document.getElementById("username");
+  const btn=document.getElementById("checkBtn");
+  const result=document.getElementById("result");
+  const state=document.getElementById("state");
+  const avatar=document.getElementById("avatar");
+  const initial=document.getElementById("initial");
+  const showUsername=document.getElementById("showUsername");
+  const fullname=document.getElementById("fullname");
+  const followers=document.getElementById("followers");
+  const following=document.getElementById("following");
+  const posts=document.getElementById("posts");
+  const bio=document.getElementById("bio");
+  const message=document.getElementById("message");
+
+  function resetAvatar(u){
+    initial.textContent=(u||"?").charAt(0).toUpperCase();
+    initial.style.display="grid";
+    avatar.style.display="none";
+    avatar.removeAttribute("src");
   }
 
-  function decodeEntities(s){
-    const t=document.createElement("textarea");
-    t.innerHTML=s;
-    return t.value;
-  }
-
-  function metaContent(html,name){
-    const re1 = new RegExp("<meta[^>]+(?:name|property)=[\\\"']" + escapeRegExp(name) + "[\\\"'][^>]+content=[\\\"']([^\\\"']*)[\\\"']", "i");
-    const re2 = new RegExp("<meta[^>]+content=[\\\"']([^\\\"']*)[\\\"'][^>]+(?:name|property)=[\\\"']" + escapeRegExp(name) + "[\\\"']", "i");
-    const m=(html.match(re1)||html.match(re2));
-    return m?decodeEntities(m[1]):"";
-  }
-
-  function cleanNumber(s){
-    if(!s)return "—";
-    const m=s.match(/[0-9][0-9,.\s]*/);
-    return m?m[0].trim():"—";
-  }
-
-  async function fetchViaProxy(target){
-    const proxies=[
-      "https://api.allorigins.win/raw?url="+encodeURIComponent(target),
-      "https://corsproxy.io/?url="+encodeURIComponent(target)
-    ];
-    let last;
-    for(const url of proxies){
-      try{
-        const r=await fetch(url,{cache:"no-store"});
-        if(r.ok){
-          const text=await r.text();
-          if(text && text.length>300)return text;
-        }
-      }catch(e){last=e}
-    }
-    throw last||new Error("proxy failed");
+  function n(v){
+    return typeof v==="number" ? v.toLocaleString("en-US") : (v??"—");
   }
 
   form.addEventListener("submit",async function(e){
     e.preventDefault();
-
-    let u=(input.value||"").trim().replace(/^@+/,"").toLowerCase();
+    const u=(input.value||"").trim().replace(/^@+/,"").toLowerCase();
 
     if(!/^[a-z0-9._]{1,30}$/.test(u)){
-      account.classList.add("show");
-      state.className="state bad";
-      state.textContent="INVALID";
-      accountName.textContent="@"+(u||"username");
-      accountMeta.textContent="Username formati noto‘g‘ri";
-      message.textContent="Faqat Instagram username formatiga mos belgilar kiriting.";
+      result.classList.add("show");
+      state.className="state bad"; state.textContent="INVALID";
+      showUsername.textContent="@"+(u||"username");
+      fullname.textContent="Username formati noto‘g‘ri";
+      message.textContent="Faqat Instagram username formatidan foydalaning.";
       return;
     }
 
-    account.classList.add("show");
-    btn.disabled=true;
-    btn.textContent="Tekshirilmoqda...";
-    state.className="state wait";
-    state.textContent="CHECKING";
-    accountName.textContent="@"+u;
-    accountMeta.textContent="Instagram public profile";
-    message.textContent="Instagram sahifasi olinmoqda...";
-    followers.textContent="—";
-    following.textContent="—";
-    posts.textContent="—";
-    avatarImg.style.display="none";
-    avatarInitial.style.display="grid";
-    avatarInitial.textContent=u.charAt(0).toUpperCase();
-
-    const target="https://www.instagram.com/"+encodeURIComponent(u)+"/";
+    result.classList.add("show");
+    btn.disabled=true; btn.textContent="Tekshirilmoqda...";
+    state.className="state wait"; state.textContent="CHECKING";
+    showUsername.textContent="@"+u;
+    fullname.textContent="Public profile";
+    followers.textContent="—"; following.textContent="—"; posts.textContent="—";
+    bio.textContent="";
+    message.textContent="Instagram public profile tekshirilmoqda...";
+    resetAvatar(u);
 
     try{
-      const html=await fetchViaProxy(target);
-      const lower=html.toLowerCase();
+      const response=await fetch("/api/check?username="+encodeURIComponent(u),{
+        method:"GET",
+        headers:{"Accept":"application/json"},
+        cache:"no-store"
+      });
+      const data=await response.json();
 
-      const notFound =
-        lower.includes("sorry, this page isn't available") ||
-        lower.includes("page not found") ||
-        lower.includes("the link you followed may be broken");
+      if(!response.ok || !data.ok){
+        state.className="state bad";
+        state.textContent=data.code==="RATE_LIMIT"?"LIMITED":"ERROR";
+        fullname.textContent="Tekshiruv bajarilmadi";
+        message.textContent=data.message||"Server tekshiruvni bajara olmadi.";
+        return;
+      }
 
-      const exactUser = new RegExp('"username"\\s*:\\s*"'+escapeRegExp(u)+'"',"i").test(html);
-      const ogTitle=metaContent(html,"og:title");
-      const ogImage=metaContent(html,"og:image");
-      const ogDesc=metaContent(html,"og:description");
-
-      if(notFound && !exactUser){
+      if(!data.exists){
         state.className="state bad";
         state.textContent="NOT FOUND";
-        accountMeta.textContent="Profil topilmadi";
-        message.textContent="Instagram public sahifasida bu username uchun profil tasdiqlanmadi.";
-      }else if(exactUser || ogImage || ogTitle){
-        state.className="state ok";
-        state.textContent="FOUND";
+        fullname.textContent="Profil topilmadi";
+        message.textContent="Instagram public profile ma’lumoti bu username uchun topilmadi.";
+        return;
+      }
 
-        if(ogImage){
-          avatarImg.onload=()=>{avatarImg.style.display="block";avatarInitial.style.display="none"};
-          avatarImg.onerror=()=>{avatarImg.style.display="none";avatarInitial.style.display="grid"};
-          avatarImg.src=ogImage;
-        }
+      state.className="state ok";
+      state.textContent="FOUND";
+      fullname.textContent=data.full_name || "Instagram public profile";
+      followers.textContent=n(data.followers_count);
+      following.textContent=n(data.following_count);
+      posts.textContent=n(data.posts_count);
+      bio.textContent=data.biography || "";
+      message.textContent=data.is_private ? "Public profil topildi. Akkaunt private bo‘lishi mumkin." : "Public profil topildi.";
 
-        accountName.textContent=ogTitle||("@"+u);
-        accountMeta.textContent="Public Instagram profile";
-
-        if(ogDesc){
-          const parts=ogDesc.replace(/\\u00a0/g," ").split(" — ")[0];
-          followers.textContent=cleanNumber(parts.match(/([0-9][0-9,.\s]*)\s+Followers/i)?.[1]||"");
-          following.textContent=cleanNumber(parts.match(/([0-9][0-9,.\s]*)\s+Following/i)?.[1]||"");
-          posts.textContent=cleanNumber(parts.match(/([0-9][0-9,.\s]*)\s+Posts?/i)?.[1]||"");
-        }
-        message.textContent="Profil topildi. Ochiq metadata mavjud bo‘lsa, profil rasmi va statistika chiqarildi.";
-      }else{
-        state.className="state bad";
-        state.textContent="UNKNOWN";
-        accountMeta.textContent="Tekshiruv cheklangan";
-        message.textContent="Instagram avtomatik so‘rovni cheklagan yoki public profil ma’lumotlari olinmadi.";
+      if(data.profile_pic_url){
+        avatar.onload=function(){avatar.style.display="block";initial.style.display="none"};
+        avatar.onerror=function(){avatar.style.display="none";initial.style.display="grid"};
+        avatar.src=data.profile_pic_url;
       }
     }catch(err){
       state.className="state bad";
       state.textContent="ERROR";
-      accountMeta.textContent="Tekshiruv bajarilmadi";
-      message.textContent="Instagram yoki CORS proxy avtomatik so‘rovni blokladi. GitHub Pages faqat static hosting bo‘lgani uchun bunday tekshiruv serverga bog‘liq.";
+      fullname.textContent="API bilan bog‘lanib bo‘lmadi";
+      message.textContent="Vercel /api/check route deploy qilinganini tekshiring.";
     }finally{
       btn.disabled=false;
       btn.textContent="Account’ni tekshirish";
